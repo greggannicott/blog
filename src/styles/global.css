@@ -16,8 +16,10 @@ body {
 }
 
 h1 {
-	margin: 1rem 0;
-	font-size: 2.5rem;
+	margin: 0;
+	font-size: 1rem;
+	padding: 15px 0px;
+	text-transform: uppercase;
 }
 
 /* nav styles */
@@ -29,6 +31,7 @@ h1 {
 	font-size: 1.2rem;
 	font-weight: bold;
 	padding: 5px 10px;
+	margin-bottom: 10px;
 }
 
 .nav-links {
@@ -40,7 +43,7 @@ h1 {
 .nav-links a {
 	display: block;
 	text-align: center;
-	padding: 10px 0;
+	padding: 0;
 	text-decoration: none;
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -50,20 +53,35 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-	background-color: #ff9776;
+	color: silver;
 }
 
 :has(.menu[aria-expanded="true"]) .nav-links {
 	display: unset;
 }
 
+header {
+	border-bottom: 1px solid black;
+}
+
+.content {
+	padding: 0 15px;
+}
+
+footer {
+	margin-top: 25px;
+	padding: 0 15px;
+	border-top: 1px solid black;
+}
+
 @media screen and (min-width: 636px) {
 	.nav-links {
-		margin-left: 5em;
-		display: block;
-		position: static;
-		width: auto;
+		display: flex;
 		background: none;
+	}
+
+	.push {
+		margin-left: auto;
 	}
 
 	.nav-links a {
@@ -88,7 +106,7 @@ html.dark {
 
 .dark .nav-links a:hover,
 .dark .nav-links a:focus {
-	color: #0d0950;
+	color: silver;
 }
 
 .dark .nav-links a {
@@ -97,4 +115,8 @@ html.dark {
 
 .dark a {
 	color: #ff9776;
+}
+
+.dark header {
+	border-bottom-color: white;
 }
