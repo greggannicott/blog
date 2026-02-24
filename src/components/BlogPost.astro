@@ -1,4 +1,10 @@
 ---
-const {url, title} = Astro.props;
+const {url, title, pubDate} = Astro.props;
 ---
-<li><a href={url}>{title}</a></li>
+<style>
+  .pub-date {
+    display: inline-block;
+    margin-right: 20px
+  }
+</style>
+<li><span class="pub-date">{pubDate.toString().slice(0,10)}</span><a href={url}>{title}</a></li>
