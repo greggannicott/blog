@@ -26,10 +26,28 @@ And it feels mad that I don't have a place to do this when it's so relatively ea
 
 ## I enjoy sharing what I love
 
+When I hear a good song, watch a good film, listen to a good podcast episode, encounter a useful new app, read a good book I'm always eager to share it with others.
+
+If I watch a good film on a Friday, that's all I'll want to talk about with people that weekend. Any reason to drop it in.
+
+So it'll be nice to have an outlet for such things.
+
 ## I enjoy sharing what I learn
+
+==WRITING NOTE==: I can't make this work. I'm not sure how strongly I feel about it. If you can't make it work consider deleting it.
+
+I'll often learn things, benefit greatly from it and feel compelled to share it with others.
+
+If I'm sharing my screen in work with a colleague it doesn't take much for me to start explaining "what I did there" to save a step or two.
 
 ## I want a reason to learn
 
+I'm hoping that occasionally I'll write about something that I'm not entirely sure about, and that having a need to describe it to others will encourage me to go a little deeper to form an understanding.
+
 ## There's a surprising lack of blogs for the things I enjoy
 
+Given that much of what I enjoy is tech related, it surprises me how few blogs there are out there which cover the things I like (specifically Neovim, tmux, the command line in general etc). I YouTube has probably taken that market, and although I'm not doing this to gain hits or to seize on an oppertunity, it still feels like a hole I can try and help fill.
+
 ## To get over fears of judgement
+
+Finally, I'm very self conscious, I don't like the idea of putting my thoughts out there a people judging them. So this is as much about putting myself out of my confort zone as anything else.
