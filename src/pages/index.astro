@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
 import BlogPost from "../components/BlogPost.astro"
-const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true })).filter(post => post.file.endsWith("feedback.md") !== true);
 const pageTitle = "Posts"
 ---
 <BaseLayout pageTitle={pageTitle}>
