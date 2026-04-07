@@ -1,17 +1,17 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "The Lost Joy of Encountering Good Writing"
-pubDate: 2026-03-11
+pubDate: 2026-04-07
 author: "Greg Gannicott"
 tags: ["AI"]
-published: false
+published: true
 ---
 
 I feel like over the years, the quality of writing by the general public has dropped.
 
 What sort of things am I referring to? Just small messages like a Facebook post by a business, or a Teams message in work. Things that are seemingly throw-away.
 
-The grammer is poor, typos galore and just a general sense that no effort has been put into it.
+The grammar is poor, typos galore and just a general sense that no effort has been put into it.
 
 Given that these are throw-away things, I get it. Why bother?
 
