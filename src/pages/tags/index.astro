@@ -1,7 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro"
-const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }))
-const tags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())]
+import { getPublishedPosts } from "../../utils/posts"
+const publishedPosts = getPublishedPosts()
+const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags).flat())]
 const pageTitle = "Tag Index"
 ---
 <BaseLayout pageTitle={pageTitle}>

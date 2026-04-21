@@ -1,11 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
 import BlogPost from "../components/BlogPost.astro"
-const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true })).filter(post => post.file.endsWith("feedback.md") !== true);
+import { getPublishedPosts } from "../utils/posts"
+const publishedPosts = getPublishedPosts()
 const pageTitle = "Posts"
 ---
 <BaseLayout pageTitle={pageTitle}>
 		<ul>
-		{allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} pubDate={post.frontmatter.pubDate} />)}
+		{publishedPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} pubDate={post.frontmatter.pubDate} />)}
 		</ul>
 </BaseLayout>
