@@ -72,6 +72,22 @@ footer {
 	margin-top: 25px;
 	padding: 0 15px;
 	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rss-link {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: #e65100;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.rss-link:hover {
+	text-decoration: underline;
 }
 
 @media screen and (min-width: 636px) {
