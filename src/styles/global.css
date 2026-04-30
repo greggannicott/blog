@@ -36,16 +36,16 @@ h2 {
 .side-menu {
 	top: 0;
 	bottom: 0;
-	width: 15rem;
+	width: 20rem;
 	position: fixed;
 	border-right: 1px solid silver;
-	padding: 0 2rem;
+	padding: 0 4rem;
 }
 
 .content {
 	position: relative;
-	margin-left: 15rem;
-	padding: 0 2rem;
+	margin-left: 20rem;
+	padding: 0 4rem;
 }
 
 .side-menu menu,
