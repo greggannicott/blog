@@ -1,14 +1,15 @@
 html {
-	background-color: #f1f5f9;
 	font-family: sans-serif;
 }
 
 body {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 80ch;
-	padding: 1rem;
+	max-width: 100ch;
+	padding: 0;
 	line-height: 1.5;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 * {
@@ -16,14 +17,45 @@ body {
 }
 
 h1 {
-	margin: 0;
-	font-size: 1rem;
-	padding: 15px 0px;
+	margin: 1rem 0;
+	font-size: 2rem;
 	text-transform: uppercase;
+}
+
+h2 {
+	margin: 1rem 0;
+	padding: 0;
+}
+
+/* Sections */
+
+.site-container {
+	display: flex;
+}
+
+.side-menu {
+	top: 0;
+	bottom: 0;
+	width: 15rem;
+	position: fixed;
+	border-right: 1px solid silver;
+	padding: 0 2rem;
+}
+
+.content {
+	position: relative;
+	margin-left: 15rem;
+	padding: 0 2rem;
+}
+
+.side-menu menu,
+.side-menu menu ul {
+	padding-left: 0;
 }
 
 /* nav styles */
 
+/*
 .menu {
 	background-color: #0d0950;
 	border: none;
@@ -63,19 +95,7 @@ h1 {
 header {
 	border-bottom: 1px solid black;
 }
-
-.content {
-	padding: 0 15px;
-}
-
-footer {
-	margin-top: 25px;
-	padding: 0 15px;
-	border-top: 1px solid black;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+*/
 
 .rss-link {
 	display: flex;
@@ -91,6 +111,7 @@ footer {
 }
 
 @media screen and (min-width: 636px) {
+	/*
 	.nav-links {
 		display: flex;
 		background: none;
@@ -108,6 +129,7 @@ footer {
 	.menu {
 		display: none;
 	}
+	*/
 }
 
 html.dark {
@@ -120,6 +142,7 @@ html.dark {
 	color: #000;
 }
 
+/*
 .dark .nav-links a:hover,
 .dark .nav-links a:focus {
 	color: silver;
@@ -128,11 +151,14 @@ html.dark {
 .dark .nav-links a {
 	color: #fff;
 }
+*/
 
 .dark a {
 	color: #ff9776;
 }
 
+/*
 .dark header {
 	border-bottom-color: white;
 }
+*/
