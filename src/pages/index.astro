@@ -6,8 +6,4 @@ const publishedPosts = getPublishedPosts()
 const pageTitle = "Welcome"
 ---
 <BaseLayout pageTitle={pageTitle}>
-	<p>These posts are moving to their own page...</p>
-		<ul>
-		{publishedPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} pubDate={post.frontmatter.pubDate} />)}
-		</ul>
 </BaseLayout>

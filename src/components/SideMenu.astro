@@ -7,11 +7,11 @@ const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags
 ---
 <div class="side-menu">
   <!-- Site Title -->
-  <h1>GG</h1>
+  <h1><a href="/">GG</a></h1>
 
   <!-- Tags -->
   <menu id="tag-menu">
-	<ul><a href="/posts/">All Posts</a></ul>
+	<ul><a href="/posts/">All</a></ul>
   {tags.map((tag) => 
   <ul><a href={`/tags/${tag}`}>{tag}</a></ul>
   )}
