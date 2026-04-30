@@ -46,6 +46,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+p {
+	margin: 2rem 0;
+}
+
 * {
 	box-sizing: border-box;
 }
