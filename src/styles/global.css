@@ -1,5 +1,38 @@
+@font-face {
+	font-family: "iA Writer Duospace";
+	src: url("/iAWriterDuospace-Regular.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "iA Writer Duospace";
+	src: url("/iAWriterDuospace-Bold.otf") format("opentype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "iA Writer Duospace";
+	src: url("/iAWriterDuospace-RegularItalic.otf") format("opentype");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "iA Writer Duospace";
+	src: url("/iAWriterDuospace-BoldItalic.otf") format("opentype");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
 html {
-	font-family: sans-serif;
+	font-family: "iA Writer Duospace", monospace;
+	font-size: 16px;
 }
 
 body {
@@ -10,6 +43,7 @@ body {
 	line-height: 1.5;
 	margin-left: auto;
 	margin-right: auto;
+	-webkit-font-smoothing: antialiased;
 }
 
 * {
