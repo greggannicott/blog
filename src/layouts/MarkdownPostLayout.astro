@@ -3,7 +3,7 @@ import BaseLayout from "./BaseLayout.astro"
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
-  <p>Published: {frontmatter.pubDate.toString().slice(0,10)}</p>
+  <p class="published-date">Published: {frontmatter.pubDate.toString().slice(0,10)}</p>
   <slot />
   <div class="tags">
     {frontmatter.tags.map((tag: string) => (
@@ -14,6 +14,11 @@ const { frontmatter } = Astro.props;
 <style>
   a {
     color: #00539F;
+  }
+
+  .published-date {
+    color: black;
+    font-size: 0.8rem;
   }
 
   .tags {

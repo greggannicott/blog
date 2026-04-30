@@ -33,6 +33,7 @@
 html {
 	font-family: "iA Writer Duospace", monospace;
 	font-size: 16px;
+	color: gray;
 }
 
 body {
@@ -54,13 +55,24 @@ p {
 	box-sizing: border-box;
 }
 
+a,
+a:visited {
+	color: navy;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
 h1 {
 	margin: 1rem 0;
 	font-size: 2rem;
 	text-transform: uppercase;
 }
 
-h1 a {
+h1 a,
+h1 a:visited {
 	text-decoration: none;
 	color: black;
 }
@@ -69,6 +81,11 @@ h2 {
 	font-size: 2rem;
 	margin: 1rem 0;
 	padding: 0;
+	color: black;
+}
+
+h3 {
+	color: black;
 }
 
 /* Sections */
@@ -107,6 +124,10 @@ ul {
 
 .side-menu menu li a {
 	text-decoration: none;
+}
+
+.side-menu menu li a:hover {
+	text-decoration: underline;
 }
 
 .side-menu menu#main-menu {
