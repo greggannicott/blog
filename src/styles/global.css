@@ -103,11 +103,6 @@ h3 {
 	display: flex;
 }
 
-/* Show/hide side menu depending on state of mobile menu */
-:has(.menu[aria-expanded="true"]) .main-menu {
-	display: unset;
-}
-
 .main-menu {
 	top: 0;
 	bottom: 0;
@@ -118,11 +113,6 @@ h3 {
 }
 
 .menu-button-container {
-	display: none;
-}
-
-/* Show/hide content depending on state of mobile menu */
-:has(.menu[aria-expanded="true"]) .content {
 	display: none;
 }
 
