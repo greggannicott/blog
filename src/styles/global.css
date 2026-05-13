@@ -97,12 +97,6 @@ h3 {
   color: var(--secondary-color);
 }
 
-/* Mobile Header */
-
-.mobile-header {
-  display: none;
-}
-
 /* Sections */
 
 .site-container {
@@ -233,21 +227,6 @@ header {
 
   .content {
     margin-left: 0;
-  }
-
-  .mobile-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-    border-bottom: 1px solid var(--secondary-color);
-    padding: 0 10px;
-  }
-
-  .mobile-header h1 {
-    font-size: 1em;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 }
 
