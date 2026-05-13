@@ -97,10 +97,21 @@ h3 {
   color: var(--secondary-color);
 }
 
+/* Mobile Header */
+
+.mobile-header {
+  display: none;
+}
+
 /* Sections */
 
 .site-container {
   display: flex;
+}
+
+/* Show/hide side menu depending on state of mobile menu */
+:has(.menu[aria-expanded="true"]) .side-menu {
+  display: unset;
 }
 
 .side-menu {
@@ -110,6 +121,11 @@ h3 {
   position: fixed;
   border-right: 1px solid silver;
   padding: 0 4rem;
+}
+
+/* Show/hide content depending on state of mobile menu */
+:has(.menu[aria-expanded="true"]) .content {
+  display: none;
 }
 
 .content {
@@ -146,17 +162,36 @@ ul {
 
 /* nav styles */
 
-/*
+/* Menu button for mobile mode */
+
 .menu {
-	background-color: #0d0950;
-	border: none;
-	color: #fff;
-	font-size: 1.2rem;
-	font-weight: bold;
-	padding: 5px 10px;
-	margin-bottom: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.menu svg {
+  width: 28px;
+  height: 28px;
+}
+
+.menu .close-icon {
+  display: none;
+}
+
+.menu[aria-expanded="true"] .hamburger {
+  display: none;
+}
+
+.menu[aria-expanded="true"] .close-icon {
+  display: block;
+}
+
+/*
 .nav-links {
 	width: 100%;
 	display: none;
@@ -187,9 +222,37 @@ header {
 	border-bottom: 1px solid black;
 }
 */
+@media screen and (max-width: 636px) {
+  .site-container {
+    display: block;
+  }
 
-@media screen and (min-width: 636px) {
-  /*
+  .side-menu {
+    display: none;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0 10px;
+  }
+
+  .mobile-header h1 {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* @media screen and (min-width: 636px) {
+
 	.nav-links {
 		display: flex;
 		background: none;
@@ -207,8 +270,8 @@ header {
 	.menu {
 		display: none;
 	}
-	*/
-}
+
+} */
 
 html.dark {
   background-color: #0d0950;
@@ -216,8 +279,7 @@ html.dark {
 }
 
 .dark .menu {
-  background-color: #fff;
-  color: #000;
+  color: #fff;
 }
 
 /*

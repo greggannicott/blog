@@ -2,6 +2,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import SideMenu from '../components/SideMenu.astro';
+import Menu from '../components/Menu.astro'
 import '../styles/global.css';
 const { pageTitle } = Astro.props
 ---
@@ -16,6 +17,10 @@ const { pageTitle } = Astro.props
   </head>
 	<body>
 	  <div class="site-container">
+	    <div class="mobile-header">
+	      <h1><a href="/">Greg Gannicott</a></h1>
+	      <Menu />
+	    </div>
 	    <SideMenu />
 	    <div class="content">
 	      <h2>{pageTitle}</h2>
