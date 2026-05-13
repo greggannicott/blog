@@ -104,11 +104,11 @@ h3 {
 }
 
 /* Show/hide side menu depending on state of mobile menu */
-:has(.menu[aria-expanded="true"]) .side-menu {
+:has(.menu[aria-expanded="true"]) .main-menu {
   display: unset;
 }
 
-.side-menu {
+.main-menu {
   top: 0;
   bottom: 0;
   width: 20rem;
@@ -132,24 +132,24 @@ ul {
   margin: 2rem 0;
 }
 
-.side-menu menu {
+.main-menu menu {
   margin: 2rem 0;
 }
 
-.side-menu menu {
+.main-menu menu {
   padding-left: 0;
   list-style-type: none;
 }
 
-.side-menu menu li a {
+.main-menu menu li a {
   text-decoration: none;
 }
 
-.side-menu menu li a:hover {
+.main-menu menu li a:hover {
   text-decoration: underline;
 }
 
-.side-menu menu#main-menu {
+.main-menu menu#main-menu {
   font-size: 0.8em;
   font-weight: 900;
 }
@@ -221,7 +221,7 @@ header {
     display: block;
   }
 
-  .side-menu {
+  .main-menu {
     display: none;
   }
 
