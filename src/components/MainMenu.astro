@@ -1,6 +1,7 @@
 ---
 import Navigation from './Navigation.astro'
 import { getPublishedPosts } from "../utils/posts"
+import MenuButton from './MenuButton.astro'
 const publishedPosts = getPublishedPosts()
 const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags).flat())]
 ---
@@ -16,8 +17,11 @@ const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags
   )}
   </menu>
 
-
   <!-- Site Nav -->
   <Navigation />
+
+  <div class="menu-button-container">
+    <MenuButton />
+  </div>
 </div>
 
