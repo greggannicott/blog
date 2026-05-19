@@ -13,17 +13,18 @@ const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags
       <MenuButton />
     </div>
   </div>
+  <div class="navigation-container">
+    <!-- Tags -->
+    <menu id="tag-menu">
+	  <li><a href="/posts/">All</a></li>
+    {tags.map((tag) => 
+    <li><a href={`/tags/${tag}`}>{tag}</a></li>
+    )}
+    </menu>
 
-  <!-- Tags -->
-  <menu id="tag-menu">
-	<li><a href="/posts/">All</a></li>
-  {tags.map((tag) => 
-  <li><a href={`/tags/${tag}`}>{tag}</a></li>
-  )}
-  </menu>
-
-  <!-- Site Nav -->
-  <Navigation />
+    <!-- Site Nav -->
+    <Navigation />
+  </div>
 
 </div>
 

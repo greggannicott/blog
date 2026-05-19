@@ -211,6 +211,12 @@ header {
 }
 */
 @media screen and (max-width: 636px) {
+
+	/* Hide navigation when menu is closed */
+	:has(.menu[aria-expanded="false"]) .navigation-container {
+		display: none;
+	}
+
 	.title-and-button-container {
 		display: flex;
 		justify-content: space-between;
@@ -222,6 +228,10 @@ header {
 		padding: 10px;
 	}
 
+	.navigation-container {
+		margin-bottom: 10px;
+	}
+
 	.menu-button-container {
 		display: block;
 	}
@@ -231,14 +241,18 @@ header {
 	}
 
 	#tag-menu {
-		padding: 0 10px;
-		margin: 10px 0 0 0;
+		display: none;
 	}
 
 	#main-menu {
 		padding: 0 10px;
 		margin: 10px 0 0 0;
-		font-size: 16px !important;
+		font-size: 18px !important;
+	}
+
+	#main-menu li {
+		padding: 4px 0;
+		font-weight: normal;
 	}
 
 	.main-menu {
@@ -247,6 +261,7 @@ header {
 		position: unset;
 		padding: 5px;
 		border-right: 0;
+		border-bottom: 1px solid silver;
 	}
 
 	.content {
