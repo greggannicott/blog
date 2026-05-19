@@ -156,7 +156,7 @@ ul {
 	background: none;
 	border: none;
 	cursor: pointer;
-	padding: 8px;
+	padding: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -211,21 +211,47 @@ header {
 }
 */
 @media screen and (max-width: 636px) {
-	.site-container {
-		display: block;
+	.title-and-button-container {
+		display: flex;
+		justify-content: space-between;
 	}
 
-	.main-menu {
-		display: block;
-		position: unset;
+	.title-and-button-container h1 {
+		font-size: 1.2em;
+		margin: 0;
+		padding: 10px;
 	}
 
 	.menu-button-container {
 		display: block;
 	}
 
+	.site-container {
+		display: block;
+	}
+
+	#tag-menu {
+		padding: 0 10px;
+		margin: 10px 0 0 0;
+	}
+
+	#main-menu {
+		padding: 0 10px;
+		margin: 10px 0 0 0;
+		font-size: 16px !important;
+	}
+
+	.main-menu {
+		display: block;
+		width: 100%;
+		position: unset;
+		padding: 5px;
+		border-right: 0;
+	}
+
 	.content {
 		margin-left: 0;
+		padding: 10px;
 	}
 }
 

@@ -7,7 +7,12 @@ const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags
 ---
 <div class="main-menu">
   <!-- Site Title -->
-  <h1><a href="/">Greg Gannicott</a></h1>
+  <div class="title-and-button-container">
+    <h1><a href="/">Greg Gannicott</a></h1>
+    <div class="menu-button-container">
+      <MenuButton />
+    </div>
+  </div>
 
   <!-- Tags -->
   <menu id="tag-menu">
@@ -20,8 +25,5 @@ const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags
   <!-- Site Nav -->
   <Navigation />
 
-  <div class="menu-button-container">
-    <MenuButton />
-  </div>
 </div>
 
