@@ -18,7 +18,7 @@ const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags
     <menu class="topics-list">
 	  <li><a href="/posts/">All</a></li>
     {tags.map((tag) => 
-    <li><a href={`/tags/${tag}`}>{tag}</a></li>
+    <li><a href={`/topics/${tag}`}>{tag}</a></li>
     )}
     </menu>
 
