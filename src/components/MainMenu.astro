@@ -1,33 +1,13 @@
 ---
 import Navigation from './Navigation.astro'
-import { getPublishedPosts } from "../utils/posts"
-import MenuButton from './MenuButton.astro'
-const publishedPosts = getPublishedPosts()
-const tags = [...new Set(publishedPosts.map((post: any) => post.frontmatter.tags).flat())]
+import SiteBranding from './SiteBranding.astro'
+import TopicsList from './TopicsList.astro'
 ---
 <div class="main-menu">
-  <!-- Site Title -->
-  <div class="title-and-button-container">
-    <div class="site-title">
-      <h1><a href="/">Dropping Steps</a></h1>
-      <h2>By Greg Gannicott</h2>
-    </div>
-    <div class="menu-button-container">
-      <MenuButton />
-    </div>
-  </div>
+  <SiteBranding />
   <div class="navigation-container">
-    <!-- Tags -->
-    <menu class="topics-list">
-	  <li><a href="/posts/">All</a></li>
-    {tags.map((tag) => 
-    <li><a href={`/topics/${tag}`}>{tag}</a></li>
-    )}
-    </menu>
-
-    <!-- Site Nav -->
+    <TopicsList />
     <Navigation />
   </div>
-
 </div>
 
