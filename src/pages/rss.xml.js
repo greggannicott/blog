@@ -5,8 +5,8 @@ import { getPublishedPosts } from "../utils/posts";
 export async function GET(context) {
   const posts = getPublishedPosts();
   return rss({
-    title: "greg.gannicott.co.uk | Blog",
-    description: "Posts from greg.gannicott.co.uk",
+    title: "Dropping Steps - Posts",
+    description: "Posts from Dropping Steps",
     site: context.site,
     items: await Promise.all(
       posts.map(async (post) => ({
