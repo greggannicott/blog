@@ -6,4 +6,12 @@ const publishedPosts = getPublishedPosts()
 const pageTitle = "Welcome"
 ---
 <BaseLayout pageTitle={pageTitle}>
+	<h3><a href="/posts/">Posts</a></h3>
+	<p>All posts in reverse chronilogical order.</p>
+	<h3><a href="/tags/">Topics</a></h3>
+	<p>All posts grouped by topic.</p>
+	<h3><a href="/rss.xml">Subscribe</a></h3>
+	<p>Subscribe to get each new post in your RSS reader of choice. Never have to visit again!</p>
+	<h3><a href="/about/">About</a></h3>
+	<p>All about me and this site.</p>
 </BaseLayout>
