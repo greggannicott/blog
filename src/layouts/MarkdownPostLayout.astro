@@ -5,19 +5,11 @@ const { frontmatter } = Astro.props;
 <BaseLayout pageTitle={frontmatter.title}>
   <p class="published-date">Published: {frontmatter.pubDate.toString().slice(0,10)}</p>
   <slot />
-  <ul class="tags">
-    {frontmatter.tags.map((tag: string) => (
-    <li class="tag"><a href={`/tags/${tag}`}>{tag}</a></li>
+  <hr />
+  <p>See other posts about:</p>
+  <ul>
+    {frontmatter.tags.map((topic: string) => (
+    <li><a href={`/topics/${topic}`}>{topic}</a></li>
     ))}
   </ul>
 </BaseLayout>
-<style>
-  a {
-    color: #00539F;
-  }
-
-  .published-date {
-    color: black;
-    font-size: 0.8rem;
-  }
-</style>
