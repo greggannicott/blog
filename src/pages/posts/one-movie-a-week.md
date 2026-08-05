@@ -3,11 +3,9 @@ layout: "../../layouts/MarkdownPostLayout.astro"
 title: "One Movie a Week"
 pubDate: 2026-03-11
 author: "Greg Gannicott"
-tags: ["Movies"]
-published: false
+tags: ["Culture"]
+published: true
 ---
-
-== Writing Note: This entire intro needs condensing I think. For me, the point of this post is what I've learnt from the experiment rather than how it came to be. ==
 
 Last summer my wife and I went to the local cinema to watch The Fantastic Four: First Steps.
 
@@ -19,11 +17,7 @@ We enjoyed our little date and enjoyed the movie, and so Becky suggested we go w
 
 And so we did, and again we enjoyed it.
 
-The next week was The Naked Gun (2025), something she wanted to see and something I wasn't fussed by. Once again, we both enjoyed it.
-
-Then an important one: The Materialists. We saw a trailer, kind of found it intriguing and although neither of us were that fussed, we went anyway.
-
-This is an important one because it was the first one we went to see where neither of us were pushing to see _the_ movie, but rather just pushing to see _a_ movie.
+We watched a couple more where one of us found it of interest, but then an important one: The Materialists. We saw a trailer, kind of found it intriguing and although neither of us were that fussed, we went anyway. It's important because it was the first one we went to see where neither of us were pushing to see _the_ movie, but rather just pushing to see _a_ movie.
 
 At that point - not through words but through actions - we implicitly formed a pact (or a routine if you want to be less dramatic): to go watch a movie every week, no matter what was on. We'd realised that most weeks there is something on that was of enough interest to gamble on it.
 
@@ -35,7 +29,7 @@ At that point - not through words but through actions - we implicitly formed a p
 
 Having a pact/routine to go to the cinema every week has been a bit of a game changer, in several ways:
 
-- We learnt that there are movies we didn't think we'd enjoy, but when "forced" to watch, it turns out we did. Most movies have something to offer. My way of approaching it is - and this rings less true for the blockbusters - is that someone wanted to make this movie for a reason. It isn't likely to make much money, so what is it the writer/director wanted to share?
+- We learnt that there are movies we didn't think we'd enjoy, but when "forced" to watch, it turns out we did. Most movies have something to offer. My way of approaching it is - and this rings less true for the blockbusters - is that someone wanted to make this movie for a reason. It isn't likely to make much money, so what is it the writer/director wanted to share with the world?
 - We found that we were keener to arrive earlier to catch the trailers, because knowing that there is a good chance you'd act on seeing a trailer means the trailers became far more enjoyable. We now tend to sit there and mention to each other whether it's something we'd watch or not. The good thing is I don't tend to remember the trailer - and so I'm not spoilt - but I do remember the sense of whether I want to watch it or not.
 - We realised that despite what many might think, modern movies are often great.
 - We also realised that despite what many might think, modern movies aren't just franchises and remakes. One of the ironies of this whole thing is it was franchises and remakes that got us in the for the first 3 films, but we now watch far more original movies as a result.
@@ -56,8 +50,8 @@ Notable movies, in the order we watched them:
 - The Fantastic Four: First Steps. The one that started it.
 - Materialists: First film we weren't fussed about watching but watched anyway.
 - The Life of Chuck: First weird film we saw and still enjoyed.
-- The Roses: The best movie we'd seen by this point in terms of we both wanted to watch it and both really enjoyed it. And despite that, I don't think we would have gone had it not been for the new routine.
-- Caught Stealing: First violent film that Becky enjoyed. The movie wasn't her thing yet she enjoyed it anyway.
+- The Roses: The best movie we'd seen by this point in terms of we both wanted to watch it and both really enjoyed it. And despite that, I don't think we would have gone had it not been for the new routine, as we didn't tend to go to the cinema prior to this.
+- Caught Stealing: First violent film that Becky enjoyed. The movie wasn't typically her thing yet she enjoyed it anyway.
 - Honey Don't!: The first dud. Neither of us enjoyed it. And yet... we survived! It wasn't the end of the world. We had no regrets. We could handle future duds :)
 - The Long Walk: A film Becky was very hesitant to watch. The plot looked depressing and it looked violent. And yet she really enjoyed it. I think it's probably the biggest swing for her in terms of expectations and outcomes. Important this happens I think as it encourages us to gamble more. Great film by the way!
 - A Big Bold Beautiful Journey: I didn't know what this was going to be about (the trailer was weird) but I really enjoyed it. Probably my most pleasant surprise.
