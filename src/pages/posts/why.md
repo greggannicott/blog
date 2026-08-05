@@ -44,8 +44,8 @@ I'm hoping that occasionally I'll write about something that I'm not entirely su
 
 ## There's a surprising lack of blogs for the things I enjoy
 
-Given that much of what I enjoy is tech related, it surprises me how few blogs there are out there which cover the things I like (specifically Neovim, tmux, and the command line in general). YouTube has probably taken that market, and although I'm not doing this to gain hits or to seize on an oppertunity, it still feels like a hole I can try and help fill.
+Given that much of what I enjoy is tech related, it surprises me how few blogs there are out there which cover the things I like (specifically Neovim, tmux, and the command line in general). YouTube has probably taken that market, and although I'm not doing this to gain hits or to seize on an opportunity, it still feels like a hole I can try and help fill.
 
 ## To get over fears of judgement
 
-Finally, I'm very self conscious, I don't like the idea of putting my thoughts out there and eople judging them. So this is as much about putting myself out of my confort zone as anything else.
+Finally, I'm very self conscious, I don't like the idea of putting my thoughts out there and people judging them. So this is as much about putting myself out of my comfort zone as anything else.
