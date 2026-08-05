@@ -9,7 +9,7 @@ published: true
 
 Frequently in work I'll find myself in situations where I disagree with a decision that is being made.
 
-Over the years I've come to realise that no matter how hard you try or how right you feel, you're not going to win. People don't tend to change their minds (myself included).
+Over the years I've come to realise that no matter how hard you try or how right you feel, you're unlikely to win. People don't often change their minds (myself included).
 
 If people continue to try and change each other's minds you end up with meetings that just go round in circles.
 

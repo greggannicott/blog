@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
-title: "The Lost Joy of Encountering Good Writing"
+title: "The Lost Joy of Encountering Good Throwaway Writing"
 pubDate: 2026-08-05
 author: "Greg Gannicott"
 tags: ["AI"]
