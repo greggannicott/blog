@@ -23,10 +23,6 @@ At that point - not through words but through actions - we implicitly formed a p
 
 ---
 
-== Writing Note: I feel like this section can be reworded to put greater focus on the benefits the constraints bring.==
-
-== Writing note: I think it would all benefit from some rewording. I'm happy with it as a first raft, but I think you can do better.==
-
 Having a pact/routine to go to the cinema every week has been a bit of a game changer, in several ways:
 
 - We learnt that there are movies we didn't think we'd enjoy, but when "forced" to watch, it turns out we did. Most movies have something to offer. My way of approaching it is - and this rings less true for the blockbusters - is that someone wanted to make this movie for a reason. It isn't likely to make much money, so what is it the writer/director wanted to share with the world?
@@ -38,32 +34,27 @@ And the fact we do it at the cinema rather than at home changes things too:
 
 - There is less choice. Some might consider this a negative - and I get it - but as a result we are watching things we never previously would have watched, and discovering we like far more than we thought we would have done. In a weird way the lack of choice has opened up our choices.
 - It isn't possible to pick up your phone, which means the film is guaranteed your attention. I think there are films out there which demand that attention and patience and don't work unless you give it, but those same films struggle to keep the attention. This forces the issue :)
-- And in a similar vein, you're pretty much forced to sit through the entire film. I believed it anyway but it's affirmed my belief that a movie can't be judged until you've seen the entire thing. That sounds like an obvious and daft thing to say, but I think the way films are written and produced means the final minutes can change your entire view of a movie. The conclusion carries too much weight to ignore. Several films have had there ratings increased by me during the final minutes. Not because of plot twists but because the sense of satisfaction and conclusion that the end of the film can give.
+- And in a similar vein, you're pretty much forced to sit through the entire film. I believed it anyway but it's affirmed my belief that a movie can't be judged until you've seen the entire thing. That sounds like an obvious and daft thing to say, but I think the way films are written and produced means the final minutes can change your entire view of a movie. The conclusion carries too much weight to ignore. Several films have had their ratings increased by me during the final minutes. Not because of plot twists but because the sense of satisfaction and conclusion that the end of the film can give.
 
 ---
-
-== Writing Note: Maybe a follow up post? ==
-== Writing Note: You might be able to reduce this ==
 
 Notable movies, in the order we watched them:
 
-- The Fantastic Four: First Steps. The one that started it.
-- Materialists: First film we weren't fussed about watching but watched anyway.
-- The Life of Chuck: First weird film we saw and still enjoyed.
-- The Roses: The best movie we'd seen by this point in terms of we both wanted to watch it and both really enjoyed it. And despite that, I don't think we would have gone had it not been for the new routine, as we didn't tend to go to the cinema prior to this.
-- Caught Stealing: First violent film that Becky enjoyed. The movie wasn't typically her thing yet she enjoyed it anyway.
-- Honey Don't!: The first dud. Neither of us enjoyed it. And yet... we survived! It wasn't the end of the world. We had no regrets. We could handle future duds :)
-- The Long Walk: A film Becky was very hesitant to watch. The plot looked depressing and it looked violent. And yet she really enjoyed it. I think it's probably the biggest swing for her in terms of expectations and outcomes. Important this happens I think as it encourages us to gamble more. Great film by the way!
-- A Big Bold Beautiful Journey: I didn't know what this was going to be about (the trailer was weird) but I really enjoyed it. Probably my most pleasant surprise.
-- After The Hunt: Probably the worst movie we've watched. All the way through I was thinking "maybe I'm just not bright enough to get this", but having read reviews after, I don't think that was the problem.
-- I Swear: The best film we've watched. I absolutely loved this. Incredible how many emotions you feel. How uncomfortable you feel. How happy you feel. And what you learn.
-- Project Hail Mary: A good example of sticking with a film. Becky said that to begin with she was worried she was going to be bored senseless, but by the end of the movie she loved it. I believe she would have picked up her phone/stopped the movie at home.
+- **The Fantastic Four: First Steps**. The one that started it. You might say our... First Steps...
+- **Materialists**: First film we weren't fussed about watching but watched anyway.
+- **The Life of Chuck**: First weird film we saw and still enjoyed.
+- **The Roses**: The best movie we'd seen by this point in terms of we both wanted to watch it and both really enjoyed it. And despite that, I don't think we would have gone had it not been for the new ~routine~ pact, as we didn't tend to go to the cinema prior to this.
+- **Caught Stealing**: First violent film that Becky enjoyed. The movie wasn't typically her thing yet she enjoyed it anyway.
+- **Honey Don't!**: The first dud. Neither of us enjoyed it. And yet... we survived! It wasn't the end of the world. We had no regrets. We learnt could handle future duds :)
+- **The Long Walk**: A film Becky was very hesitant to watch. The plot looked depressing and it looked violent. And yet she really enjoyed it. I think it's probably the biggest swing for her in terms of expectations and outcomes. Important that this happens I think as it encourages us to gamble more. Great film by the way!
+- **A Big Bold Beautiful Journey**: I didn't know what this was going to be about (the trailer was weird) but I really enjoyed it. Probably my most pleasant surprise.
+- **After The Hunt**: Probably the worst movie we've watched. All the way through I was thinking "maybe I'm just not bright enough to get this", but having read reviews after, I don't think that was the problem.
+- **I Swear**: The best film we've watched. I absolutely loved this. Incredible how many emotions you feel. How uncomfortable you feel. How happy you feel. And what you learn.
+- **Project Hail Mary**: A good example of sticking with a film. Becky said that to begin with she was worried she was going to be bored senseless, but by the end of the movie she loved it. I believe she would have picked up her phone/stopped the movie at home.
 
 ---
 
-== Writing note: Include ratings? ==
-
-All movies watched at the cinema together:
+All movies watched at the cinema together to date (05/08/2026):
 
 - The Fantastic Four: First Steps
 - Superman
@@ -92,6 +83,15 @@ All movies watched at the cinema together:
 - How To Make A Killing
 - Project Hail Mary
 - The Drama
+- California Schemin'
+- Michael
+- The Devil Wears Prada 2
+- The Sheep Detectives
+- Top Gun
+- Finding Emily
+- Tuner
+- Masters of the Universe
+- Spider-Man: Brand New Day
 
 ---
 
