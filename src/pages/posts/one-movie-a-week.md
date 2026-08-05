@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "One Movie a Week"
-pubDate: 2026-03-11
+pubDate: 2026-08-05
 author: "Greg Gannicott"
 tags: ["Culture"]
 published: true

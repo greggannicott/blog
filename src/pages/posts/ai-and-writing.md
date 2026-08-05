@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "The Lost Joy of Encountering Good Writing"
-pubDate: 2026-04-07
+pubDate: 2026-08-05
 author: "Greg Gannicott"
 tags: ["AI"]
 published: true

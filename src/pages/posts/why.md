@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Why?"
-pubDate: 2026-03-11
+pubDate: 2026-08-04
 description: "Why have I started this blog?"
 author: "Greg Gannicott"
 tags: ["Meta"]

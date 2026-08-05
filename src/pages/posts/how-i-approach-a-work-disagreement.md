@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "How I Approach a Work Disagreement"
-pubDate: 2026-04-07
+pubDate: 2026-08-05
 author: "Greg Gannicott"
 tags: ["Development"]
 published: true
