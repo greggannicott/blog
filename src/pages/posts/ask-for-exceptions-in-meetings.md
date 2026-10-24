@@ -4,7 +4,7 @@ title: "In meetings, ask for objections when seeking approval"
 pubDate: 2026-10-24
 author: "Greg Gannicott"
 tags: ["General", "Development"]
-published: false
+published: true
 ---
 
 When in a meeting with multiple people and you want to proceed with something, don't ask "Is everyone ok with that?".
